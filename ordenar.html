@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet"> 
+    <title>Ordenar</title>
+
+    <style>
+        
+        *{
+            margin: 0%;
+        }
+        html,body{
+            height: 100%;
+            background-color: blanchedalmond;
+        }
+
+        #header{
+            background-color: black;
+            border: 1px solid black;
+            width: 99%;
+            height: 12%;
+            margin-bottom: -1px;
+    /*margin => right.5px*/
+    }
+
+.account{
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    left: 65%;
+    color: white;
+    border: 1px solid white;
+    bottom: 25%;
+    font-family: 'Quicksand', sans-serif;
+
+    border-left: 5px solid rgb(27, 177, 7);
+    border-right: 5px solid red;
+
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+.bolsa{
+    position: relative;
+    left: 60%;
+    width: 40px;
+    height: 40px;
+}
+
+
+#container{
+    margin-left: 8%;
+    margin-right: 10%;
+    width: 80%;
+    height:550px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 1px solid black;
+}
+
+.photo{
+    width: 50%;
+    height: 550px;
+    float: left;
+
+}
+
+.info{
+    clear: both; 
+    position: relative;
+    left: 50%;
+    bottom:553px;
+    width: 50%;
+    height: 550px;
+
+    background-color: white;
+    clear: both;
+
+}
+
+.title{
+    width: 220px;
+    font-size: 32px;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 50px;
+    border-right: 5px solid black;
+}
+
+.desc{
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 50px;
+}
+
+.number{
+    width: 50px;
+    margin-left: 50px;
+    border: 0px;
+    background-color: rgb(242, 242, 242);
+    padding: 20px;
+}
+
+.comprar{
+    background-color: rgb(27, 141, 11);
+    color: white;
+    border: 0px;
+    margin-left: 120px;
+    padding:15px;
+}
+
+.comprar:hover{
+    background-color: rgb(27, 141, 11);
+    color: white;
+    border: 0px;
+    transition: 0.2s;
+    box-shadow: 2px 2px 2px 2px  gray;
+}
+
+
+
+#comments{
+    box-shadow: 1px 1px 1px 1px gray;
+
+    margin-top: 5px;
+    margin-left: 8%;
+    width: 80.1%;
+    height: auto;
+}
+.res{
+    background-color: blueviolet;
+    color: white;
+    font-size: 32px;
+    font-family: 'Quicksand', sans-serif;
+    text-indent: 5%;
+}
+
+.along{
+    width: 100%;
+    height: 125px;
+    border-bottom: 1px solid black;
+}
+
+.profile{
+    margin-top: 15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+}
+.user{
+    width: 250px;
+    height: 20px;
+    background-color: white;
+    margin-left: 120%;
+}
+
+.comment{
+    margin-top: 5%;
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    margin-left: 120%;
+}
+
+.cal{
+    font-size: 32px;
+    font-family: 'Quicksand', sans-serif;
+    text-indent: 45px;
+    margin-left: 45px;
+    background-color: yellow;
+    color: black;
+
+}
+
+
+    </style>
+</head>
+<body>
+
+
+    <div id="header">
+        <img src="images/150px.png" class="logo">
+        <a href="#">
+            <img src="images/las-compras-en-linea.png" class="bolsa">
+        </a>
+        <a href="account.html" class="account">Mi Cuenta</a>
+    </div>
+
+    <div id="container">
+            <img src="images/hamburger-5630646_1920.jpg" class="photo">
+            <div class="info">
+                <p class="title">Ham-Prem</p>
+                <p class="desc">Deliciosa Hamburguesa hecha con pan
+                    integral, carne asada barnisada con jugo de carne
+                    queso amarillo derretido grado 2 
+                </p>
+              <input type="number" name="number" id="number" class="number">
+              <input type="submit" value="Comprar" class="comprar">            
+              <p class="cal">5/5 Se te cayo tu corona rey</p>
+              <img src="images/51EdLuQS9-L._AC_SX425_.jpeg" width="150px" height="150px">
+
+            </div> 
+
+
+    </div>
+
+    <div id="comments">
+        <div class="res">Reseñas de nuestros clientes</div>
+
+        <div class="along">
+            <div class="profile">
+                <div class="user"></div>
+
+                <div class="comment"></div>
+            </div>
+        </div>
+
+        <div class="along">
+            <div class="profile">
+                <div class="user"></div>
+
+                <div class="comment"></div>
+            </div>
+        </div>
+
+        <div class="along">
+            <div class="profile">
+                <div class="user"></div>
+
+                <div class="comment"></div>
+            </div>
+        </div>
+
+        <div class="along">
+            <div class="profile">
+                <div class="user"></div>
+
+                <div class="comment"></div>
+            </div>
+        </div>
+
+        <div class="along">
+            <div class="profile">
+                <div class="user"></div>
+
+                <div class="comment"></div>
+            </div>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>

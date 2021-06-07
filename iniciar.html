@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicia Sesion</title>
+<style>
+        *{
+        margin: 0%;
+
+    }
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+#header{
+    background-color: black;
+    border: 1px solid black;
+    width: 99%;
+    height: 12%;
+    margin-bottom: -1px;
+    /*margin => right.5px*/
+}
+
+.account{
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    left: 65%;
+    color: white;
+    border: 1px solid white;
+    bottom: 25%;
+    font-family: 'Quicksand', sans-serif;
+
+    border-left: 5px solid rgb(27, 177, 7);
+    border-right: 5px solid red;
+
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+.bolsa{
+    position: relative;
+    left: 60%;
+    width: 40px;
+    height: 40px;
+}
+footer{
+    clear: both;
+    position: relative;
+    top: 150px;
+    width: 100%;
+    height: 250px;
+    background-color: black;
+}
+
+.facebook{
+    position: relative;
+    top: 19px;
+    margin-left: 60%;
+    width: 50px;
+    height: 50px;
+}
+
+.instagram{
+    position: relative;
+    bottom: 15%;
+    margin-left: 85%;
+    width: 50px;
+    height: 50px;
+
+}
+
+.footer{
+    width: 50%;
+    background-color: white;
+    border-color: white;
+    margin-left: 25%;
+}
+
+.de{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 40%;
+}
+
+
+#container{
+    margin-top: 5%;
+    margin-left: 34%;
+    width: 30%;
+    height: 320px;
+    border: 1px solid black;
+    background-color: white;
+    border: 0px;
+    box-shadow: 1px 1px 2px 1px  rgb(190, 188, 188);
+}
+
+
+#email{
+    position: relative;
+    top: 50px;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    border: 0px;
+    background-color: rgb(237, 237, 237);
+    text-indent: 15%;
+    width: 60%;
+    display: block;
+}
+
+#password{
+    border: 0px;
+    background-color: rgb(237, 237, 237);
+    text-indent: 15%;
+    margin-left: 25%;
+    position: relative;
+    top:80px;
+
+}
+
+.login{
+    background-color: green;
+    color: white;
+    position: relative;
+    top: 150px;
+    text-indent: 0px;
+    margin-left: 40%;
+    border: 0px;
+}
+
+</style>
+</head>
+<body>
+    <div id="header">
+        <a href="larata.html"><img src="images/150px.png" class="logo"></a>
+        <a href="carrito.html">
+            <img src="images/las-compras-en-linea.png" class="bolsa">
+        </a>
+        <a href="account.html" class="account">Mi Cuenta</a>
+    </div>
+
+    <div id="container">
+        <form action="iniciar.html" method="post">
+            <input type="email" placeholder="Tu email" id="email">
+            <input type="password" name="password" id="password" placeholder="Contraseña"> 
+        
+            <input type="submit" value="Login" class="login">
+        </form>
+    </div>
+
+</body>
+
+    <footer>
+        <br>
+        <hr class="footer">
+        <br>
+        <img src="images/150px.png" class="logo">
+        <img src="images/logotipo-circular-de-facebook-1.svg" class="facebook">
+        <img src="images/instagram.svg" class="instagram">
+    
+        <p class="de">Todos los derechos reservados &copy</p>
+    </footer>
+    
+    
+</html>

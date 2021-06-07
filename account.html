@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <title>Mi Cuenta</title>
+</head>
+<body>
+    <style>
+
+html,body{
+    margin: 0%;
+            height: 100%;
+            background-color: blanchedalmond;
+            font-family:  'Quicksand', sans-serif;
+        }
+
+        #header{
+            background-color: black;
+            border: 1px solid black;
+            width: 99%;
+            height: 12%;
+            margin-bottom: -1px;
+    /*margin => right.5px*/
+    }
+
+        .account{
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    left: 65%;
+    color: white;
+    border: 1px solid white;
+    bottom: 25%;
+    font-family: 'Quicksand', sans-serif;
+
+    border-left: 5px solid rgb(27, 177, 7);
+    border-right: 5px solid red;
+
+}
+
+.logo{
+    margin-left: 20px;
+}  
+
+.bolsa{
+    position: relative;
+    left: 60%;
+    width: 40px;
+    height: 40px;
+}
+
+#container{
+    margin-top: 50px;
+    margin-left:8%;
+    width: 80%;
+    height: 550px;
+    background-color: white;
+    /*border: 1px solid black;*/
+}
+
+.profile-box{
+    box-shadow: 1px 1px 1px 1px gray;
+    background-color: rgb(255, 255, 255);
+    width: 220px;
+    height:100%;
+    /*border: 1px solid black;*/
+}
+.img{
+    width: 100%;
+    height: 40%;
+    border-radius: 50%;
+   /* border: 1px solid black;*/
+}
+
+.name-profile{
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+   /* border: 1px solid black;*/
+    background-color: white;
+}
+
+.email{
+    background-color: white;
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+   /* border: 1px solid black;*/
+}
+
+.happy{
+    background-color: white;
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+    /*border: 1px solid black;*/
+    text-align: center;
+}
+
+.img-dec{
+    margin-top: 15%;
+    width: 100%;
+    height: 30%;
+
+}
+
+.info-profile{
+    position: relative;
+    left: 220px;
+    bottom: 100%;
+    width: 81%;
+    height: 100%;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+.welcome{
+    text-indent: 5%;
+    margin: 0%;
+    background-color: rgb(26, 20, 53);
+    color: white;
+}
+label{
+    margin-left: 14%;
+
+}
+.street{
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 250px;
+    border: 0px;
+    padding: 10px;
+    background-color: rgb(232, 231, 231);
+    border-bottom: 3px solid rgb(167, 30, 167);
+}
+.number{
+    margin-top: 2%;
+    margin-left: 2.5%;
+    width: 250px;
+    border: 0px;
+    padding: 10px;
+    background-color: rgb(232, 231, 231);
+    border-bottom: 3px solid rgb(167, 30, 167);
+}
+.mun{
+    margin-top: 2%;
+    margin-left: 1.8%;
+    width: 250px;
+    border: 0px;
+    padding: 10px;
+    background-color: rgb(232, 231, 231);
+    border-bottom: 3px solid rgb(167, 30, 167);
+
+}
+
+.save{
+    padding: 10px;
+    border: 0px;
+    background-color: green;
+    color: white;
+    margin-left: 20%;
+}
+
+.edit{
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border: 0px;
+    margin-left: 5%;
+}
+    </style>
+
+    <div id="header">
+        <a href="larata.html"><img src="images/150px.png" class="logo"></a>
+        <a href="carrito.html">
+            <img src="images/las-compras-en-linea.png" class="bolsa">
+        </a>
+        <a href="#" class="account">Mi Cuenta</a>
+    </div>
+
+    <div id="container">
+        <div class="profile-box">
+            <img src="images/194652332_864903610906479_6613484769571823551_n.jpeg" class="img">
+            <div class="name-profile">Fernando Zacatenco</div>
+            <div class="email">fermanzac@hotmail.com</div>
+
+            <div class="happy">Nacio el 31 Mayo de 2005</div>
+
+            <img src="images/cactus-2.png" class="img-dec">
+        </div>
+
+        <div class="info-profile">
+            <h1 class="welcome">Información de @Fernando Zacatenco</h1>
+            <label for="street">CALLE
+                <input type="text" name="street" class="street" placeholder="NOMBRE DE LA CALLE">
+            </label>
+            <br>
+
+            <label for="street">NÚMERO
+                <input type="text" name="street" class="number" placeholder="# CASA">
+            </label>
+            <br>
+            <label for="street">MUNICIPIO
+                <input type="text" name="mun" class="mun" placeholder="MUNICIPIO">
+            </label>
+             <br><br><br>
+            <input type="submit" value="Guardar" class="save">
+            <input type="submit" value="Editar" class="edit">
+            
+        </div>
+
+
+    </div>
+</body>
+</html>

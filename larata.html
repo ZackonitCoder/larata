@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet"> 
+    <title>LaRata Ordena desde tu casa</title>
+</head>
+
+
+<style>
+
+    *{
+        margin: 0%;
+
+    }
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+#header{
+    background-color: black;
+    border: 1px solid black;
+    width: 99%;
+    height: 12%;
+    margin-bottom: -1px;
+    /*margin => right.5px*/
+}
+
+.account{
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    left: 65%;
+    color: white;
+    border: 1px solid white;
+    bottom: 25%;
+    font-family: 'Quicksand', sans-serif;
+
+    border-left: 5px solid rgb(27, 177, 7);
+    border-right: 5px solid red;
+
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+.bolsa{
+    position: relative;
+    left: 60%;
+    width: 40px;
+    height: 40px;
+}
+
+
+/*container*/
+
+#container{
+    margin-left: 2%;
+    width: 90%;
+    height: auto;
+    margin-top: 10px;
+    box-shadow: 1px 1px 1px solid black;
+    margin-bottom: 5%;
+}
+
+.offer{
+    margin: 0%;
+
+    width: 50%;
+    height: 350px;
+    border: 1px solid black;
+    float: right;
+    background-image: url(images/alitas-pollo-asado-caliente-salsa-bbq-vista-superior_89816-24368.jpeg);
+    background-size: 100%;
+    background-position-y: 360px;
+
+}
+
+.walk{
+    margin: 0%;
+
+    width: 50%;
+    height: 350px;
+    border: 1px solid black;
+    /*background-image: linear-gradient(black,rgb(36, 33, 33),gray);*/
+    background-color: rgb(12, 12, 12);
+    color: white;
+
+}
+
+.hr{
+    background-color: orange;
+    border: 1px solid orange;
+    width: 98%;
+    height: 2px;
+
+}
+
+.food{
+    position: relative;
+    left: 15%;
+    top: 25%;
+    font-size: 32px;
+    border: 1px solid white;
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    width: 350px;
+}
+
+/**/
+
+#promos{
+    margin-left: 2%;
+    margin-top: 1%;
+    width: 320px;
+    height: 450px;
+    float: left;
+    margin-right: 4.5%;
+    background-color: whitesmoke;
+
+    box-shadow: 1px 1px 1px 1px  gray;
+}
+
+#promos:hover{
+    transition: 0.2s;
+    box-shadow: 5px 5px 5px 2px gray;
+}
+.ham{
+    margin: 0%;
+    width:100%;
+    height: 80%;
+}
+
+.info{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+}
+
+.order{
+    font-family: 'Quicksand', sans-serif;
+
+    border: 0px;
+    padding: 5px;
+    background-color: rgb(70, 165, 6);
+    color: white;
+    text-decoration: none;
+}
+
+.desc{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+
+}
+footer{
+    clear: both;
+    position: relative;
+    top: 150px;
+    width: 100%;
+    height: 250px;
+    background-color: black;
+}
+
+.facebook{
+    position: relative;
+    top: 19px;
+    margin-left: 60%;
+    width: 50px;
+    height: 50px;
+}
+
+.instagram{
+    position: relative;
+    bottom: 15%;
+    margin-left: 85%;
+    width: 50px;
+    height: 50px;
+
+}
+
+.footer{
+    width: 50%;
+    background-color: white;
+    border-color: white;
+    margin-left: 25%;
+}
+
+.de{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 40%;
+}
+</style>
+<body>
+    <div id="header">
+        <a href="larata.html"><img src="images/150px.png" class="logo"></a>
+        <a href="carrito.html">
+            <img src="images/las-compras-en-linea.png" class="bolsa">
+        </a>
+        <a href="account.html" class="account">Mi Cuenta</a>
+    </div>
+
+    <hr class="hr">
+    <div id="container">
+        <div class="offer"></div>
+        <div class="walk">
+            <p class="food">Comida Mexicana DESDE $50 MXN </p>
+
+        </div>
+
+        <div id="promos">
+            <img src="images/side-view-of-burger-with-beef-meat-melted-cheese-and-vegetables-on-wooden-board.jpg" class="ham">
+            <p class="info">$250MXN</p>
+            <p class="desc">Hambursa con papas ,premium</p>
+            <a href="#" class="order">Ordenar</a>
+        </div>
+
+        <div id="promos">
+            <img src="images/fresh-taco.jpg" class="ham">
+            <p class="info">$250MXN</p>
+            <p class="desc">Hambursa con papas ,premium</p>
+
+            <a href="#" class="order">Ordenar</a>
+
+        </div>
+
+        <div id="promos">
+            <img src="images/top-view-hot-dog-with-mustard.jpg" class="ham">
+            <p class="info">$250MXN</p>
+            <p class="desc">Hambursa con papas ,premium</p>
+            <a href="#" class="order">Ordenar</a>
+        </div>
+
+        
+
+
+        <div id="promos">
+            <img src="images/side-view-of-burger-with-beef-meat-melted-cheese-and-vegetables-on-wooden-board.jpg" class="ham">
+            <p class="info">$250MXN</p>
+            <p class="desc">Hambursa con papas ,premium</p>
+
+            <a href="#" class="order">Ordenar</a>
+        </div>
+
+        <div id="promos">
+            <img src="images/fresh-taco.jpg" class="ham">
+            <p class="info">$250MXN</p>
+            <a href="#" class="order">Ordenar</a>
+
+        </div>
+
+        <div id="promos">
+            <img src="images/top-view-hot-dog-with-mustard.jpg" class="ham">
+            <p class="info">$250MXN</p>
+
+            <a href="#" class="order">Ordenar</a>
+        </div>
+      
+    </div>
+
+</body>
+
+<footer>
+    <br>
+    <hr class="footer">
+    <br>
+    <img src="images/150px.png" class="logo">
+    <img src="images/logotipo-circular-de-facebook-1.svg" class="facebook">
+    <img src="images/instagram.svg" class="instagram">
+
+    <p class="de">Todos los derechos reservados &copy</p>
+</footer>
+
+
+
+</html>
